@@ -1,0 +1,16 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animado:hover{
+    background-color: green;
+    color: white;
+}
+.animado::before{
+    content: "Pasa Por Encima";
+}
+.animado:hover::before{
+    content:"¡Hecho!";
+}
